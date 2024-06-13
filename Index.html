@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galon Air | Waterrior</title>
+
+  <meta name="description" content="Website ini berisi informasi tentang galon air, termasuk jenis-jenis galon, manfaat galon, dan tips memilih galon yang tepat.">
+  <meta name="keywords" content="galon air, air minum, kesehatan, higienis, praktis">
+  <meta name="Waterrior" content="Galon Air">
+
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Jenis Galon</a></li>
+      <li><a href="#">Manfaat Galon</a></li>
+      <li><a href="#">Tips Memilih Galon</a></li>
+      <li><a href="#">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Galon Air Waterrior</h1>
+    <p>Solusi praktis dan higienis untuk kebutuhan air minum Anda.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Pesan Galon Air</h2>
+      <p>Isi formulir berikut untuk memesan galon:</p>
+
+      <form action="#">
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat" rows="5" required></textarea>
+
+        <label for="jenisGalon">Jenis Galon:</label>
+        <select id="jenisGalon" name="jenisGalon" required>
+          <option value="PET">PET</option>
+          <option value="PC">Polycarbonate (PC)</option>
+          <option value="StainlessSteel">Stainless Steel</option>
+          <option value="Dispenser">Dispenser</option>
+        </select>
+
+        <label for="jumlahGalon">Jumlah Galon:</label>
+        <input type="number" id="jumlahGalon" name="jumlahGalon" min="1" required>
+
+        <label for="pengiriman">Pengiriman:</label>
+        <div>
+          <input type="radio" id="pengirimanSameDay" name="pengiriman" value="sameDay">
+          <label for="pengirimanSameDay">Same Day</label>
+
+          <input type="radio" id="pengirimanNextDay" name="pengiriman" value="nextDay">
+          <label for="pengirimanNextDay">Next Day</label>
+        </div>
+
+        <label for="pembayaran">Pembayaran:</label>
+        <div>
+          <input type="checkbox" id="pembayaranTransfer" name="pembayaran[]" value="transfer">
+          <label for="pembayaranTransfer">Transfer Bank</label>
+
+          <input type="checkbox" id="pembayaranTunai" name="pembayaran[]" value="tunai">
+          <label for="pembayaranTunai">Tunai (COD)</label>
+        </div>
+
+        <button type="submit">Pesan Sekarang</button>
+      </form>
+    </section>
+
+    </main>
+
+  <footer>
+    <p>&copy; Waterrior 2024. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
