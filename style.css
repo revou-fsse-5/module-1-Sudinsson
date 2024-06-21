@@ -1,0 +1,185 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #58a2e7;
+  color: #fff;
+  padding: 1.25rem 2.5rem;
+  position: sticky; /* Make the navbar sticky on scroll */
+  top: 0; /* Position it at the top of the viewport */
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  transition: all 0.3s ease-in-out;
+}
+
+#pengiriman, #pembayaran {
+  display: grid;
+  grid-template-columns: 150px auto; /* Adjust column widths as needed */
+  gap: 10px; /* Add spacing between grid items */
+}
+
+#pengiriman input, #pembayaran input {
+  margin-right: 10px; /* Add spacing between input and label */
+}
+
+
+/* Styles applied to all screen sizes */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 2.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+/* Header styles */
+header {
+  padding: 2.5rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+/* Main content styles */
+main {
+  padding: 2.5rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+form label {
+  width: 15rem;
+  margin-right: 1.25rem;
+}
+
+form input,
+form textarea,
+form select {
+  
+  width: 100%;
+  padding: 1.25rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1.25rem;
+}
+
+form textarea {
+  height: 12.5rem;
+}
+
+/* Delivery option styles */
+form div {
+  display: flex;
+  align-items: center;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+  margin-right: 1.25rem;
+}
+
+/* Button styles */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 1.25rem 2.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 1.25rem;
+  background-color: #f0f0f0;
+}
+
+
+/* Tablet Media Queries (Start from 768px and end at 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Navigation bar adjustments */
+  nav.sticky {
+    padding: 0.625rem 1.25rem;
+  }
+
+  /* Header adjustments */
+  h1 {
+    font-size: 1.875rem;
+  }
+
+  /* Main content adjustments */
+  main {
+    padding: 1.25rem;
+  }
+
+}
+
+/* Mobile Media Queries (Less than 768px) */
+@media only screen and (max-width: 767px) {
+  /* Navigation bar adjustments */
+  nav {
+    padding: 1rem;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    margin-right: 1.5rem;
+    text-align: center;
+  }
+
+  /* Header adjustments */
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Main content adjustments */
+  main {
+    padding: 1rem;
+  }
+
+  /* Form adjustments */
+  form label {
+    width
