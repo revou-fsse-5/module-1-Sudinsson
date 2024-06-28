@@ -1,82 +1,92 @@
-<!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Galon Air | Waterrior</title>
-
-  <meta name="description" content="Website ini berisi informasi tentang galon air, termasuk jenis-jenis galon, manfaat galon, dan tips memilih galon yang tepat.">
-  <meta name="keywords" content="galon air, air minum, kesehatan, higienis, praktis">
-  <meta name="Waterrior" content="Galon Air">
-
-  <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width-device-width, initial-scale=1"/>
+    <title>MAHAINIMUA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <!-- INI NAVBAR  MULAI-->
+    <header class="header1">
+        <h1 class="logo"> MAHAINI MUA <i class="fa-solid fa-clover fa-spin fa-sm" style="color: #964095;"></i></h1>
+            <nav>
+                <ul class="ul">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">CONTACT ME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </ul>
+            </nav>
+        <button class="button1">Follow Me</button>
+    </header>
+    <!-- INI NAVBAR  SELESAI-->
 
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Jenis Galon</a></li>
-      <li><a href="#">Manfaat Galon</a></li>
-      <li><a href="#">Tips Memilih Galon</a></li>
-      <li><a href="#">Kontak</a></li>
-    </ul>
-  </nav>
+    <!-- INI KONTEN  MULAI--> 
+    <div class="container">
+        <header class="header2">
+            <div class="hero">
+                <h2 class="judul">Mahaini Make Up Artist</h2>
+                <p class="deskripsi">Karena Momenmu Berharga</p>
+            </div>
+            <div class="features konten-1">
+                <h3 class="judul"></h3>
+                <p class="deskripsi"></p>
+            </div>
+            <div class="features konten-2">
+                <h3 class="judul"></h3>
+                <p class="deskripsi"></p>
+            </div>
+        </header>
+    </div>
+        <div class=container2>
+            <div class="wrapper">
+                <div class="card text-center">
+                        <p>
+                            <ul class="liststyle">
+                                <li>PARTY</li>
+                                <li>GRADUATION</li>
+                                <li>ENGAGEMENT</li>
+                                <li>WEDDING</li>
+                            </ul>
+                        </p>
+                </div>
+                <div class="card text-center">
+                    <i class="fa-brands fa-whatsapp icons"></i>
+                    <h3 class="judul2">WHATSAPP</h3>
+                    <p>QUICK RESPONSE</p>
+                    <button Class="button2">CHAT</button>
+                </div>
+                <div class="card text-center">
+                    <i class="fa-brands fa-tiktok icons"></i>
+                    <h3 class="judul2">TIKTOK</h3>
+                    <p>MAHAINIMUA GALLERY</p>
+                    <button Class="button2">FOLLOW</button>
+                </div>
+                <div class="card text-center">
+                    <i class="fa-brands fa-instagram icons"></i>
+                    <h3 class="judul2">INSTAGRAM</h3>
+                    <p>MAHAINIMUA GALLERY</p>
+                    <button Class="button2">FOLLOW</button>
+                </div>
+                <div class="card text-center">
+                    <i class="fa-brands fa-youtube icons"></i>
+                    <h3 class="judul2">YOUTUBE</h3>
+                    <p>MAHAINIMUA DAILY</p>
+                    <button Class="button2">FOLLOW</button>
+                </div>
+            </div>
+        </div>
 
-  <header>
-    <h1>Galon Air Waterrior</h1>
-    <p>Solusi praktis dan higienis untuk kebutuhan air minum Anda.</p>
-  </header>
+    <!-- INI KONTEN  SELESAI-->
 
-  <main>
-    <section>
-      <h2>Pesan Galon Air</h2>
-      <p>Isi formulir berikut untuk memesan galon:</p>
+    
+        
+        <!-- INI FOOTER  MULAI-->
 
-      <form action="#">
-        <label for="nama">Nama Lengkap:</label>
-        <input type="text" id="nama" name="nama" required>
-
-        <label for="alamat">Alamat:</label>
-        <textarea id="alamat" name="alamat" rows="5" required></textarea>
-
-        <label for="jenisGalon">Jenis Galon:</label>
-        <select id="jenisGalon" name="jenisGalon" required>
-          <option value="PET">PET</option>
-          <option value="PC">Polycarbonate (PC)</option>
-          <option value="StainlessSteel">Stainless Steel</option>
-          <option value="Dispenser">Dispenser</option>
-        </select>
-
-        <label for="jumlahGalon">Jumlah Galon:</label>
-        <input type="number" id="jumlahGalon" name="jumlahGalon" min="1" required>
-
-      </form>
-      <form>
-        <label for="pengiriman" class="grid-item">Pengiriman:</label>
-          <div class="grid-item">
-          <input type="radio" id="pengirimanSameDay" name="pengiriman" value="sameDay">
-        <label for="pengirimanSameDay">Same Day</label>
-        <input type="radio" id="pengirimanNextDay" name="pengiriman" value="nextDay">
-        <label for="pengirimanNextDay">Next Day</label>
-      </div>
-      <label for="pembayaran" class="grid-item">Pembayaran:</label>
-      <div class="grid-item">
-      <input type="checkbox" id="pembayaranTransfer" name="pembayaran[]" value="transfer">
-      <label for="pembayaranTransfer">Transfer Bank</label>
-      <input type="checkbox" id="pembayaranTunai" name="pembayaran[]" value="tunai">
-      <label for="pembayaranTunai">Tunai (COD)</label>
-      </div>
-        <button type="submit">Pesan Sekarang</button>
-      </form>
-      
-    </section>
-
-    </main>
-
-  <footer>
-    <p>&copy; Waterrior 2024. All Rights Reserved.</p>
-  </footer>
-
-</body>
+ 
+        <!-- INI FOOTER  MULAI-->
+    </body>
 </html>

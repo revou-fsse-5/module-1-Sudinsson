@@ -1,47 +1,17 @@
-# Tentang Web Waterrior
+readme.md
 
-![Gambar Galon](https://muliamitraplas.com/wp-content/uploads/2012/06/galon-PC-copy1.png) 
+Make Up Artis: Mempercantik Hari Istimewamu
+Ingin tampil memukau di hari spesialmu?
 
+Percayakan riasanmu pada Make Up Artis profesional kami! Kami siap membantumu tampil cantik dan menawan di berbagai acara penting, seperti:
 
-**Deskripsi :**
+Pernikahan: Hari pernikahan adalah momen spesial yang ingin diabadikan dengan sempurna. Make Up Artis kami akan membantumu tampil cantik dan menawan di hari bahagiamu.
+Pesta: Tampil stunning dengan riasan yang sesuai dengan tema pesta dan buatlah kamu menjadi pusat perhatian.
+Photoshoot: Ciptakan foto-foto yang stunning dengan bantuan Make Up Artis profesional kami.
+Acara formal lainnya: Tampil dengan percaya diri di berbagai acara formal dengan riasan yang sempurna.
+Diskusikan Kebutuhanmu: Sampaikan kepada kami tentang keinginan dan kebutuhanmu terkait riasan, seperti tema acara, gaya makeup yang diinginkan, dan alergi yang mungkin kamu miliki.
+Hubungi Kami Sekarang!
 
-Website ini menyediakan informasi tentang galon air, termasuk jenis-jenis galon, manfaat galon, tips memilih galon, dan formulir pemesanan galon air.
-
-
-**Fitur:**
-
-* Navigasi yang mudah dengan menu utama "Home", "Jenis Galon", "Manfaat Galon", "Tips Memilih Galon", dan "Kontak".
-* Formulir pemesanan galon air yang lengkap.
-* Pilihan jenis galon yang beragam: PET, PC, Stainless Steel, dan Dispenser.
-* Pilihan pengiriman Same Day dan Next Day.
-* Pilihan pembayaran Transfer Bank dan Tunai (COD).
-
-**Teknologi:**
-
-* HTML
-* CSS
-* JavaScript (opsional)
-
-**Panduan Penggunaan:**
-
-1. Pengguna dapat mengakses informasi tentang jenis galon, manfaat galon, dan tips memilih galon melalui halaman-halaman website.
-2. Pengguna dapat memesan galon air melalui formulir pemesanan yang tersedia di halaman utama website.
-3. Pengguna dapat memilih jenis galon, jumlah galon, pilihan pengiriman, dan pilihan pembayaran sesuai dengan kebutuhan.
-4. Setelah mengisi formulir pemesanan, pengguna akan diarahkan ke halaman konfirmasi untuk menyelesaikan transaksi.
-
-**Catatan:**
-
-* Website ini masih dalam tahap pengembangan dan mungkin terdapat beberapa bug atau kekurangan.
-* Pengguna disarankan untuk selalu memeriksa kembali informasi yang terdapat di website sebelum melakukan pemesanan.
-
-**Kontribusi:**
-
-Anda dipersilakan untuk berkontribusi dalam pengembangan website ini dengan melaporkan bug, memberikan saran, atau menambahkan fitur baru.
-
-**Lisensi:**
-
-Website ini dilisensikan di bawah lisensi MIT.
-
-**Kontak:**
-
-Jika Anda memiliki pertanyaan atau saran, silakan hubungi kami melalui email: waterrior@gmail.com
+Instagram: [Link akun Instagram]
+Facebook: [Link akun Facebook]
+Make Up Artis: Partner Tepat untuk Hari Istimewamu!
